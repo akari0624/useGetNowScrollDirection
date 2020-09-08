@@ -2,7 +2,7 @@
   "name": "use-get-now-scroll-direction",
   "version": "1.0.0",
   "description": "A react customHook to know now user is scrollUp or scrollDown on the Screen",
-  "author": "Ming Ching Chen <akari7804598@gmail.com>",
+  "author": "Ming Ching Chen <akari0624@hotmail.com>",
   "main": "dist/useGetNowScrollDirection.cjs.js",
   "module": "dist/useGetNowScrollDirection.esm.js",
   "browser": "dist/useGetNowScrollDirection.umd.js",
@@ -11,14 +11,16 @@
     "url": "https://github.com/akari0624/useGetNowScrollDirection"
   },
   "dependencies": {
-    "lodash.throttle": "^4.1.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "lodash.throttle": "^4.1.1"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^11.0.1",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "rollup": "^1.29.0"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "build": "rollup -c",
