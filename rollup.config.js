@@ -19,14 +19,16 @@ export default [
 	// browser-friendly UMD build
 	{
 		input: 'src/index.js',
+		external: ['react', 'react-dom'],
 		output: {
-			name: 'howLongUntilLunch',
+			name: 'useGetNowScrollDirection',
 			file: pkg.browser,
-			format: 'umd'
+			format: 'umd',
+			globals: { react: 'React', 'react-dom': 'ReactDOM' },
 		},
 		plugins: [
-			resolve(), // so Rollup can find `ms`
-			commonjs(commonjsArgs) // so Rollup can convert `ms` to an ES module
+			resolve(), // so Rollup can find dependencies in node_modulea
+			commonjs(commonjsArgs) // so Rollup can convert dependencies in node_modulea to an ES module
 		]
 	},
 

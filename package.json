@@ -1,6 +1,6 @@
 {
   "name": "use-get-now-scroll-direction",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A react customHook to know now user is scrollUp or scrollDown on the Screen",
   "author": "Ming Ching Chen <akari0624@hotmail.com>",
   "main": "dist/useGetNowScrollDirection.cjs.js",

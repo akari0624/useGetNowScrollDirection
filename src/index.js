@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import _throttle from 'lodash.throttle';
 
 export function useGetNowScrollDirection(thresholdHeight = 30) {
