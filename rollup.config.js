@@ -4,6 +4,7 @@ import pkg from './package.json';
 import react from 'react';
 import reactDom from 'react-dom';
 import _throttle from 'lodash.throttle'
+import invariant from 'invariant'
 
 
 const commonjsArgs = {
@@ -11,7 +12,8 @@ const commonjsArgs = {
   namedExports: {
     react: Object.keys(react),
 		'react-dom': Object.keys(reactDom),
-		'lodash.throttle': Object.keys(_throttle)
+		'lodash.throttle': Object.keys(_throttle),
+		invariant : Object.keys(invariant)
   }
 };
 
