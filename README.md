@@ -25,7 +25,8 @@ export default function YourComponent(){
 ```
 
 - perhaps usage scenario: 
-a fixed header when user scroll down
+a fixed header when user scroll down  
+
 ![useGetIsScrollOverThreshold](docPic/useGetIsScrollOverThreshold.gif)
 
 2. useGetNowScrollDirection
@@ -41,5 +42,6 @@ export default function YourComponent(){
 ```
 
 - perhaps usage scenario: 
-hide header and footer when user scrolling down, show them when scrolling up
+hide header and footer when user scrolling down, show them when scrolling up  
+
 ![useGetNowScrollDirection](docPic/useGetNowScrollDirection.gif)
